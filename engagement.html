@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video App with Location</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #video-container {
+            position: relative;
+        }
+
+        #location-link {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            text-decoration: none;
+            background-color: #3498db;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <video width="100%" height="auto" controls>
+            <source src="C:\Users\MURALIDHARAN\Downloads\VID-20240115-WA0002.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="https://maps.app.goo.gl/gx9HphZsmTmji4E56" id="location-link" target="_blank">View Location</a>
+    </div>
+</body>
+</html>
